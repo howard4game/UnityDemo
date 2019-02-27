@@ -1,0 +1,16 @@
+//我的demo中，希望在主城有一个不停旋转的NPC，旋转功能的脚本如下，其中注意主类名要和文件名一致，即主类名为xuanzhuan，脚本文件名也要时xuanzhuan
+
+
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+public class xuanzhuan : MonoBehaviour
+
+ void Start () {
+        
+    }
+ void Update () {
+      
+            this.gameObject.transform.Rotate(Vector3.up * Time.deltaTime * 50);  //Vector3.up是Y轴，Time.deltaTime能让其按实际时间运行，能防止卡顿
+        
+    }
