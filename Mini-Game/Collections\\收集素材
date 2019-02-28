@@ -1,0 +1,4 @@
+//想要用一个2D卷轴3D圆柱展示的方式，表现玩家收集素材时的场景，可以起名为“粗大棒槌”，实现方式如下
+step 1： 用unity Tilemap做二维横板地图，要辅助unity官方github素材：2d-estras，利用好rule tile；还有随机瓦片和动画瓦片；可以用预制笔刷，刷出素材，
+接上一行：如蔬菜，肉类；
+step 2：用Cinemachine插件，新建2d Camera之后，用target texture，配合圆柱体，实现效果
